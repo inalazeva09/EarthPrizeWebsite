@@ -1,97 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Healthcare Algae Air Purifier</title>
+  <title>Healthcare Algae Air Purifier</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <style>
-        body {
-            font-family: Arial;
-            margin: 0;
-            background-color: #e8f5e9;
-        }
-
-        nav {
-            background-color: #2e7d32;
-            padding: 15px;
-        }
-
-        nav a {
-            color: white;
-            margin-right: 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        section {
-            padding: 20px;
-        }
-
-        h1 {
-            color: #1b5e20;
-        }
-    </style>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
 <body>
 
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#product">Overall Product / Idea</a>
-        <a href="#expansion">Expansion Plan</a>
-        <a href="#about">About Us</a>
-    </nav>
+<!-- Starter Header Section -->
+<div class="container-fluid text-white text-center p-5"
+     style="background-color: #2e7d32;">
+  <h1 class="display-3">Healthcare Algae Air Purifier</h1>
+  <p class="lead">Improving Air Quality Through Nature</p>
+</div>
 
-    <section id="home">
-        <h1>Healthcare Algae Air Purifier</h1>
-        <p>[Design and pictures go here]</p>
-    </section>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-sm" style="background-color: #a5d6a7;"> 
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Menu</a>
 
-    <section id="product">
-        <h1>Overall Product / Idea</h1>
-        <p>
-            Our project is an algae-based air purification system designed for healthcare environments.
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#product">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#expansion">Expansion</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- About Section -->
+<div class="container mt-5" id="about">
+  <h2>About the Project</h2>
+  <p>
+    The Healthcare Algae Air Purifier is a nature-inspired system designed to improve indoor air quality
+    in hospitals and clinics. Air quality is a critical factor in healthcare environments, where patients
+    and staff spend extended periods of time.
+  </p>
+
+  <p>
+    Our design explores the use of algae as a natural component for air purification. Algae naturally
+    absorb carbon dioxide and contribute to balanced air conditions in ecosystems, making them an
+    interesting and sustainable option for indoor environments.
+  </p>
+</div>
+
+<!-- Product Section (Cards like your collections) -->
+<div class="container mt-5" id="product">
+  <h2>Overall Product / Idea</h2>
+  <div class="row">
+
+    <!-- Card 1 -->
+    <div class="col-sm-4 mt-3">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Air Purification</h4>
+          <p class="card-text">
             The system uses algae to help cleanse the air by absorbing carbon dioxide and supporting
             cleaner indoor conditions.
-        </p>
+          </p>
+        </div>
+      </div>
+    </div>
 
-        <p>
-            Sensors monitor air quality, temperature, and carbon dioxide levels. When pollution levels
-            increase, the system automatically activates. LED lighting mimics sunlight to allow the algae
-            to remain active through photosynthesis, while fans circulate air through the purifier.
-        </p>
-    </section>
+    <!-- Card 2 -->
+    <div class="col-sm-4 mt-3">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Smart Monitoring</h4>
+          <p class="card-text">
+            Sensors monitor air quality, temperature, and carbon dioxide levels to detect changes in
+            environmental conditions.
+          </p>
+        </div>
+      </div>
+    </div>
 
-    <section id="expansion">
-        <h1>Expansion Plan</h1>
-        <p>
-            Our long-term goal is to introduce this purifier into hospitals and clinics where air quality
-            is especially important. Healthcare facilities constantly seek safer and healthier environments,
-            making them ideal locations for this system.
-        </p>
+    <!-- Card 3 -->
+    <div class="col-sm-4 mt-3">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Automated Response</h4>
+          <p class="card-text">
+            When pollutant levels increase, the purifier activates automatically to improve air
+            circulation and quality.
+          </p>
+        </div>
+      </div>
+    </div>
 
-        <p>
-            With further development and testing, the purifier could be produced on a larger scale and
-            implemented in multiple medical settings, including waiting areas and patient spaces.
-        </p>
+  </div>
+</div>
 
-        <p>
-            Using algae as a renewable resource supports sustainability while exploring alternatives to
-            conventional purification systems.
-        </p>
-    </section>
+<!-- Expansion Section -->
+<div class="container mt-5 mb-5" id="expansion">
+  <h2>Expansion Plan</h2>
+  <p>
+    Our long-term goal is to introduce this purifier into hospitals and clinics where air quality plays
+    a major role in comfort and safety. Healthcare environments constantly seek improvements that support
+    patient well-being.
+  </p>
 
-    <section id="about">
-        <h1>About Us</h1>
-        <p>
-            We are students interested in solving real-world problems through innovative ideas.
-            Our focus on air quality and environmental sustainability inspired this project.
-        </p>
+  <p>
+    With continued development and testing, the system could be produced on a larger scale and implemented
+    in multiple healthcare settings. This includes patient areas, waiting rooms, and other indoor spaces
+    where air quality is essential.
+  </p>
 
-        <p>
-            We chose this topic because hospitals are places of healing, and we wanted to explore how
-            nature-inspired solutions could contribute to healthier indoor environments.
-        </p>
-    </section>
+  <p>
+    Using algae as a renewable resource also supports sustainability and explores alternatives to
+    conventional purification systems.
+  </p>
+</div>
+
+<!-- Footer -->
+<div class="container-fluid bg-light text-center p-3">
+  <p>&copy; 2026 Healthcare Algae Air Purifier</p>
+  <p>Ina Lazeva</p>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
